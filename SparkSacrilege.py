@@ -1,5 +1,4 @@
 import types
-import dill
 
 class SparkSacrilege:
     """ 
