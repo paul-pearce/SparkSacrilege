@@ -3,3 +3,5 @@ def returnValue(value):
 
 def returnTrue():
     return returnValue(True)
+def addTrue(s):
+    return s + (returnTrue(),)
