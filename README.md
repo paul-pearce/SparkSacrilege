@@ -10,6 +10,8 @@ This is basically a fancy wrapper around eval, but with a nice interface and pro
 evaluates the given python file inside a constrained scope, wraps function calls in a lambda, and when deployed to
 the cluster pickles up the lambda and the scope.
 
+SparkSacrilege relies on `dill` (`pip install dill`) for pickeling of the functions.
+
 # Sample Usage (from example.ipynb)
 
 ```python
